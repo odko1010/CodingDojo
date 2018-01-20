@@ -1,0 +1,36 @@
+.square {
+   width: 140px;
+   height: 140px;
+   background: orange;
+   margin: 10px;
+}
+.circle {
+   width: 140px;
+   height: 140px;
+   background: green;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 70px;
+   margin: 10px;
+}
+.uptraingle {
+   width: 0;
+   height: 0;
+   border-bottom: 120px solid brown;
+   border-left: 60px solid transparent;
+   border-right: 60px solid transparent;
+   margin: 10px;
+}
+.pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid pink;
+  border-left: 60px solid pink;
+  border-bottom: 60px solid pink;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  margin: 10px;
+}
