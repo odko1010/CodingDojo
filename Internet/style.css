@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 35px;
+  color: #474747;
+  padding-left: 85px;
+  padding-top: 20px;
+}
+  h1 span {
+    color: #326ea5;
+
+  }
+  h2 {
+    background: linear-gradient(#4179a7, #6890b1, #4179a7);
+    color: #ffffff;
+    padding: 10px 10px 10px 20px;
+    font-weight: 500;
+  }
+  h3 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+  }
+  h4 {
+    color: #4179a7;
+    padding: 5px 0 10px 0;
+  }
+  ul li {
+    padding-left: 20px;
+    list-style-position: inside;
+    list-style-type: decimal;
+  }
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
+  .logo {
+    width: 80px;
+    position: absolute;
+  }
+  .left {
+    width: 190px;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+      .left span {
+        color: #538cba;
+      }
+    .bigtext {
+      font-size: 13px;
+      padding-bottom: 8px;
+    }
+      .bigtext span {
+        color: #db342f;
+      }
+    .bluebutton {
+      background-color: #538cba;
+      border-radius: 5px;
+      color: #ffffff;
+      text-align: center;
+      padding: 8px;
+      margin: 15px 5px 0 5px;
+      font-weight: 500;
+    }
+    .yellowbutton {
+      background-color: #ef7c00;
+      border-radius: 5px;
+      color: #ffffff;
+      text-align: center;
+      padding: 8px;
+      margin: 2px 5px 0 5px;
+      font-weight: 500;
+    }
+    .border {
+      border-top: 2px solid #cecece;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .banner {
+      background-image: url(images/ad_background.png);
+      text-align: center;
+      height: 260px;
+    }
+      .banner img {
+        width: 70px;
+      }
+      .cyanbutton {
+        background-color: #26c7df;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+        padding: 8px;
+        margin: 20px;
+        font-weight: 500;
+      }
+  .right {
+    width: 770px;
+    display: inline-block;
+    padding-left: 30px;
+  }
+    .top {
+      border-bottom: 2px solid #cecece;
+
+    }
+      .top a {
+        color: #3771a6;
+      }
+    .home {
+      display: inline-block;
+      padding-top: 10px;
+      width: 382px;
+    }
+      .home img {
+      width: 20px;
+    }
+    .phone {
+      text-align: right;
+      display: inline-block;
+      width: 382px;
+      vertical-align: top;
+    }
+      .phoneicon  {
+        width: 35px;
+        display: inline-block;
+        position: absolute;
+      }
+      .smalltext {
+        font-size: 10px;
+        color: #aaa;
+        padding: 0;
+        margin: 0;
+      }
+      .bigtext {
+        color: #26c7df;
+        font-size: 25px;
+        padding: 0;
+      }
+      .server {
+        width: 350px;
+        text-align: center;
+      }
+      .bottom {
+        width: 770px;
+        border: 5px solid #26c7df;
+        display: inline-block;
+        padding: 10px;
+
+      }
+      .bottomleft {
+        width: 150px;
+        display: inline-block;
+      }
+      .bottomright  {
+        width: 500px;
+        display: inline-block;
+        vertical-align: top;
+        }
