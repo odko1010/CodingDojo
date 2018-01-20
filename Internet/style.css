@@ -53,13 +53,6 @@ h1 {
     display: inline-block;
     vertical-align: top;
   }
-      .left span {
-        color: #538cba;
-      }
-    .bigtext {
-      font-size: 13px;
-      padding-bottom: 8px;
-    }
       .bigtext span {
         color: #db342f;
       }
