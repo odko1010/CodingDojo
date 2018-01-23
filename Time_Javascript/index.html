@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var HOUR = 8;
+      var MINUTE = 50;
+      var PERIOD = "AM";
+      if (MINUTE < 30 && PERIOD == 'PM')
+          {
+            console.log("It's just after", HOUR, "in the evening");
+          }
+        if (MINUTE < 30 && PERIOD == 'AM')
+              {
+                console.log("It's just after", HOUR, "in the morning");
+              }
+          if (MINUTE > 30 && PERIOD == 'PM')
+                {
+                  console.log("It's almost", HOUR+1, "in the evening");
+                }
+              if (MINUTE > 30 && PERIOD == 'AM')
+                    {
+                      console.log("It's almost", HOUR + 1, "in the morning");
+                    }
+          else {
+            console.log("Sleep time");
+          }
+      var HOUR = 7;
+      var MINUTE = 15;
+      var PERIOD = "PM";
+      if (MINUTE > 30 && PERIOD == 'AM')
+          {
+            console.log("It's almost", HOUR + 1, "in the morning");
+          }
+        if (MINUTE > 30 && PERIOD == 'PM')
+              {
+                console.log("It's almost", HOUR+1, "in the evening");
+              }
+          if (MINUTE < 30 && PERIOD == 'AM')
+                {
+                  console.log("It's just after", HOUR, "in the morning");
+                }
+              if (MINUTE < 30 && PERIOD == 'PM')
+                    {
+                      console.log("It's just after", HOUR, "in the evening");
+                    }
+          else {
+            console.log("Sleep time");
+          }
+    </script>
+  </body>
+</html>
