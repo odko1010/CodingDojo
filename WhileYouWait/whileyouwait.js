@@ -10,8 +10,11 @@ for (var i = daysUntilMyBirthday; i >= 0; i--) {
       console.log("",i, "days until my birthday. SCREAM :)");
     }
 
-    else if (i > 0) {
+    else if (i > 1) {
       console.log("",i, "DAYS UNTIL MY BIRTHDAY!!!");
+    }
+    else if (i > 0) {
+      console.log("",i, "DAY UNTIL MY BIRTHDAY!!!");
     }
   else {
     console.log("♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪ღ♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•*")
