@@ -1,28 +1,8 @@
-var daysUntilMyBirthday = 60;
-for (var i = daysUntilMyBirthday; i >= 0; i--) {
-  if (i >= 30) {
-    console.log("",i, "days until my birthday. Such a long time...:(");
-  }
-    else if (i < 30 && i >=5) {
-      console.log("",i, "days until my birthday. Almost there :)");
-    }
-    else if (i < 5 && i >2) {
-      console.log("",i, "days until my birthday. SCREAM :)");
-    }
-
-    else if (i > 1) {
-      console.log("",i, "DAYS UNTIL MY BIRTHDAY!!!");
-    }
-    else if (i > 0) {
-      console.log("",i, "DAY UNTIL MY BIRTHDAY!!!");
-    }
-  else {
-    console.log("♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪ღ♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•*")
-    console.log("♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪ღ♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•*")
-    console.log("♪ღ♪░H░A░P░P░Y░ B░I░R░T░H░D░A░Y░░♪ღ♪")
-    console.log("♪ღ♪░H░A░P░P░Y░ B░I░R░T░H░D░A░Y░░♪ღ♪")
-    console.log("♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪ღ♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•*")
-    console.log("♪ღ♪*•.¸¸¸.•*¨¨*•.¸¸¸.•*•♪ღ♪¸.•*¨¨*•.¸¸¸.•*•♪ღ♪•*")
-  }
-
+var days = 0;
+for (var reward = 0.01; reward <10000000000; reward *= 2)
+{
+  days++;
+  console.log("day",days,"reward", reward);
 }
+console.log("day 21 reward 10485.76");
+console.log("day 38 reward 1374389534.72");
