@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Chance</title>
+    <script>
+    function slotGame(num){
+  		while(num > 0){
+  			var win = Math.floor(Math.random()*100);
+  			if(win == 1){
+  				var amountWon = (Math.floor(Math.random()*50) + 50);
+  				return amountWon + num;
+  			}
+  		}
+  		return 0;
+  	}
+      console.log("Won",slotGame(100));
+    </script>
+  </head>
+
+</html>
