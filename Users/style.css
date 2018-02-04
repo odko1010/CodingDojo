@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    width: 1000px;
+}
+table th, td{
+    width: 50px;    
+    padding-right: 60px;
+    padding-left: 20px;    
+}
+#right {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+#left{   
+    width: 394px;
+    display: inline-block;
+    vertical-align: top;
+}
+#labels {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;    
+}
+#input {
+    display: inline-block;
+    width: 200px;
+}   
+#button{
+    display: block;
+    margin-left: 10px;
+}

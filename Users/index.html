@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User</title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">        
+        <div id="left"> 
+            <h2>Add User</h2>
+            <div id="labels">
+                <p>First name</p>
+                <p>Last name</p>
+                <p>Email</p>
+                <p>Contact No.</p>
+            </div>
+            <div id="input">
+                <form id="form" action="#" method="POST">
+                    <input id="firstname" placeholder="First Name" size='30' class="forminput" type="text" name="firstname">
+                    <input id="lastname" placeholder="Last Name" size='30' class="forminput" type="text" name="lastname">
+                    <input id="email" placeholder="Email Address" size='30' class="forminput" type="email" name="email">
+                    <input id="phone" placeholder="Phone #" size='30' class="forminput" type="tel" name="phone">
+                </form >
+            </div>
+            <input id="button" type="submit" value="Add User">
+        </div>
+        <div id="right">
+                <table id="list">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email Address</th>
+                            <th>Contact #</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>    
+    </div>
+</body>
+</html>
