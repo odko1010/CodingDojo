@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+#pokemon {
+    width: 70%;
+    float: left;
+    min-height: 300px;
+    box-sizing: content-box;
+    margin-right: 1%;
+}
+#pokedeck {
+    width: 27%;
+    box-sizing: border-box;
+    border: 10px solid red;
+    float: left;
+    height: 500px;
+    padding: 30px;
+}
