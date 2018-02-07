@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #151515;
+  font-family:  sans-serif;
+  color: #fff;
+}
+h2 {
+  color: #e0722a;
+  font-size: 18px;
+}
+h5 {
+  color: #e0722a;
+  font-size: 15px;
+}
+.wrapper {
+  width: 990px;
+  margin: auto;
+}
+.header {
+  background-color: #1a1a1a;
+  height: 107px;
+}
+.header img {
+  padding: 20px;
+}
+.header p {
+  width: 680px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  color: #fff;
+  padding: 30px 25px 0 0;
+}
+.navbar {
+  background: linear-gradient(#515151, #201f1f);
+  height: 60px;
+  font-size: 13px;
+}
+.menu {
+  width: 920px;
+  display: inline-block;
+  padding-top: 20px;
+  vertical-align: top;
+}
+  .menu ul li {
+    display: inline;
+    color: #fff;
+    border-right: 1px solid #4a4a4a;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+    .navbar ul li a {
+      color: #a3a3a3;
+      text-decoration: none;
+    }
+    .navbar li:last-child {
+      border-right: 0px;
+    }
+    .navbar span {
+      font-size: 9px;
+      padding-left: 5px;
+      color: #a3a3a3;
+    }
+    .line {
+      width: 50px;
+      height: 60px;
+      display: inline-block;
+      border-left: 1px solid #4a4a4a;
+    }
+  .slider {
+    height: 360px;
+  }
+    .slider img
+    {
+      width: 990px;
+    }
+  .background {
+    background-color: #1a1a1a;
+    padding: 25px;
+  }
+  .background2 {
+    background-color: #1a1a1a;
+    padding: 25px 10px 25px 10px;
+  }
+  .icon {
+    width: 48px;
+    display: inline;
+    vertical-align: top;
+  }
+  .content {
+    width: 175px;
+    display: inline-block;
+    vertical-align: top;
+  }
+    .content p {
+      padding-top: 5px;
+      font-size: 13px;
+    }
+  .buynow {
+    background-image: url(images/bg.png);
+    padding: 36px;
+  }
+  .buynow-text {
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 70px;
+  }
+    .buynow-text p {
+      font-size: 14px;
+      padding-top: 10px;
+    }
+  .button {
+    background: linear-gradient(#ef8130, #8b4b1d);
+    width: 115px;
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+    .button a {
+      color: #fff;
+      text-decoration: none;
+    }
+  .portfolio {
+    width: 219px;
+    margin-top: 20px;
+    display: inline-block;
+    margin: 10px;
+  }
+  .portfolio-image {
+    border: 4px solid #333333;
+    margin-bottom: 15px;
+  }
+    .portfolio p {
+      font-size: 12px;
+      padding-top: 10px;
+    }
+  .view {
+    font-size: 12px;
+    display: inline;
+    padding-left: 770px;
+  }
+    .view a {
+      color: #e0722a;
+      text-decoration: none;
+    }
+  .top h4 {
+    display: inline;
+    padding-left: 10px;
+  }
+  .top {
+    margin-bottom: 15px;
+  }
+  .bottom {
+    text-align: right;
+    font-size: 10px;
+    color: #777877;
+    padding: 10px;
+  }

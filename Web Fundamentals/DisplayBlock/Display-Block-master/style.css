@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body { background-color: #d5d2ae;}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  width: 1200px;
+}
+.header img { width: 100px;}
+.header h1 { display: inline-block;}
+.header {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.content { text-align: center;}
+.row {
+  width: 230px;
+  margin: 5px 0 0 0px;
+  display: inline-block;
+}
+.row img{
+  width: 190px;
+  border: solid 5px #000;
+  padding: 15px;
+}
+.odd img { background-color: #81b4ee;}
+.even img{ background-color: #f46870;}
