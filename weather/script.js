@@ -4,7 +4,7 @@ $(document).ready(function() {
      var city = $('input:text[name=city]').val();
      $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=' + api_key, function(res){
          var html_str = '';
-         html_str += "<p>" + res['name'] + ": " + res['weather'][0]['description'] + "</p>";
+         html_str += "<p>" + res['name'] + "</p>";
          html_str += "<p>" + "Temperature: " + res['main']['temp'] + " F</p>";
          $('#results').html(html_str);
      }, 'jsonp');
